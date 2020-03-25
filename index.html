@@ -9,10 +9,16 @@
     </head>
     <body>
         <div id="app">
+            <header>
+                <h1 v-text="siteпame"></h1>
+            </header>
         </div>
         <script type="text/javascript">
             var webstore = new Vue( {
                                 el: '#app',
+                                data: {
+                                    siteпame: 'Vue.js Pet Depot'
+                                } 
                                 });
         </script>
     </body>
